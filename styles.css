@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--dark-color);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--light-gray-color);
+ 
+}
+
+    /* COLOR */
+:root {
+    --primary-color: rgba(0, 0, 0, 0.938) ;
+    --secondary-color: rgb(10, 118, 219);
+    --dark-color: rgb(0, 0, 0);
+    --white-color: rgb(233, 230, 230);
+    --light-gray-color: rgb(226, 201, 201);
+
+    /* Site Max Width */
+    --site-Max-Width: 1300px;
+    }
+
+    /* NAVBAR SECTION */
+.navsec {
+    height: 20%;
+    width: var(--site-Max-Width);
+  
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--light-gray-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  z-index: 999;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+
+}
+
+li {
+   list-style: none;
+   width: 100px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    
+}
+
+a:hover {
+    color: var(--secondary-color);
+    color: var(--white-color);
+}
+
+/* HERO SECTION */
+p {
+    text-align: justify;
+}
+
+.hero-section {
+    margin-top: 50px;
+    min-height: 100vh;
+    max-width: var(--site-Max-Width);
+    margin-left: 25px;
+}
+
+.hsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 20px;  
+}
+
+.div1 {
+    padding: 20px;
+    font-size: 30px;
+    flex: 1;
+}
+
+.btn1 {
+    font-size: 30px;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 10px;
+}
+
+.disply-car {
+  width: 100%;
+  max-width: 500px; 
+  height: auto;
+    
+}
+
+.image-container {
+    flex: 1.3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+ 
+}
+    
+
+
